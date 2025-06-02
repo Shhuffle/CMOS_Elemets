@@ -1,0 +1,61 @@
+Intented Circuit diagram 
+
+Vin -- R1 -- --Vout
+            '
+            '
+            R2
+            '
+            '
+            R3
+            '
+            '
+            R4
+            '
+            '
+            R5
+            '
+            '
+            Gnd 
+
+
+Where all the resistance have equal resistance resulting in Vout = (4/5) * Vin 
+
+
+Voltage Divider Layout Information 
+To create the resistor I have used P+ poly precision resistor
+From the https://skywater-pdk.readthedocs.io/en/main/rules/device-details.html#id86 we can get the sheet resistance of 5 different fixed widths plus a variable W/L option.
+
+0.35 (0p35)
+0.69 (0p69)
+1.41 (1p41)
+2.85 (2p83)
+5.73 (5p73)
+
+The fixed-width resistors are modeled using the equation.
+
+I have used P+ poly resistor of width 0.35um ,4 square whose nominal resistance value is 2054 ohm
+Note that the absoulte value of resistance is not important for the Voltage Divider ckt as long as the ratio is fixed for different temperature 
+and Voltage range
+
+To make  match resistor pair as much as possible Common -Cenroid layout is used. 
+                        Vin
+                        '
+                        '
+                        R1
+R5 -- R4 -- R3 -- R2 -- '
+                        '                       
+                        '
+                        Vout
+
+To increase the noise immunity guard rings are placed, which are basically p+ diffusion region connected to gnd. They route currents form the 
+neighbouring ckt to the gnd through p+ diffusion and p substrate region. 
+
+
+Also from the skywater-pdk documentaion , the acceptable input voltage is 0 to 5 volt with maximum allowed current density for polysilicon resistors of 500uA/um. 
+Since the with used in this layout is 0.35uA the allowed current density will be 500 * 0.35 = 175uA/um. In other word the current shouldnt exceed above 175uA
+In case more current is required we must increase the width. 
+
+
+
+
+
