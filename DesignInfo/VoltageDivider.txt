@@ -33,9 +33,11 @@ From the https://skywater-pdk.readthedocs.io/en/main/rules/device-details.html#i
 
 The fixed-width resistors are modeled using the equation.
 
-I have used P+ poly resistor of width 0.35um ,4 square whose nominal resistance value is 2054 ohm
+I have used P- poly resistor of width 0.35um a separate implant is used to set the sheet resistance to 2000 ohm/sq.
 Note that the absoulte value of resistance is not important for the Voltage Divider ckt as long as the ratio is fixed for different temperature 
 and Voltage range
+In this layout I have used 5 squares poly of width 0.35um for each of the fingers which is 10kohm in theory. In total there are 7 fingers. The leftmost and 
+rightmost fingers are dummy resistor left floating.
 
 To make  match resistor pair as much as possible Common -Cenroid layout is used. 
                         Vin
@@ -54,6 +56,10 @@ neighbouring ckt to the gnd through p+ diffusion and p substrate region.
 Also from the skywater-pdk documentaion , the acceptable input voltage is 0 to 5 volt with maximum allowed current density for polysilicon resistors of 500uA/um. 
 Since the with used in this layout is 0.35uA the allowed current density will be 500 * 0.35 = 175uA/um. In other word the current shouldnt exceed above 175uA
 In case more current is required we must increase the width. 
+
+ALso licons are placed at the end of each resistors which is responsible for connected to metal layer. 
+polyresc is placed at the end of resistor of heigh 2.2um which is the minimum height for poly contact.
+
 
 
 

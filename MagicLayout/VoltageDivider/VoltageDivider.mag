@@ -1,0 +1,67 @@
+magic
+tech sky130A
+timestamp 1748894698
+<< psubdiff >>
+rect -254 835 287 856
+rect -254 808 -239 835
+rect -255 777 -239 808
+rect -255 179 -240 777
+rect -256 102 -238 179
+rect 260 176 283 835
+rect 260 167 287 176
+rect -143 109 -74 124
+rect 261 109 287 167
+rect -143 102 287 109
+rect -256 98 287 102
+rect -256 73 -121 98
+rect -143 -66 -121 73
+rect -96 74 287 98
+rect -96 -66 -74 74
+rect -143 -95 -74 -66
+<< psubdiffcont >>
+rect -121 -66 -96 98
+<< xpolycontact >>
+rect -182 565 -147 781
+rect -182 173 -147 390
+rect -123 567 -88 783
+rect -123 175 -88 392
+rect -67 566 -32 782
+rect -67 174 -32 391
+rect -11 565 24 781
+rect -11 173 24 390
+rect 51 567 86 783
+rect 51 175 86 392
+rect 111 567 146 783
+rect 111 175 146 392
+rect 169 569 204 785
+rect 169 177 204 394
+<< xpolyres >>
+rect -182 390 -147 565
+rect -123 392 -88 567
+rect -67 391 -32 566
+rect -11 390 24 565
+rect 51 392 86 567
+rect 111 392 146 567
+rect 169 394 204 569
+<< locali >>
+rect -88 782 -63 783
+rect -88 567 -67 782
+rect 20 781 51 782
+rect 24 567 51 781
+rect 24 566 53 567
+rect -123 114 -88 175
+rect -32 174 -11 389
+rect -38 173 -11 174
+rect 86 175 111 391
+rect -133 98 -87 114
+rect -133 -66 -121 98
+rect -96 -66 -87 98
+rect -133 -77 -87 -66
+<< labels >>
+rlabel xpolycontact 128 180 128 180 1 V_Out
+port 2 n
+rlabel xpolycontact 126 780 126 780 5 V_In
+port 3 s
+rlabel psubdiffcont -111 -62 -111 -62 1 Gnd
+port 1 n
+<< end >>

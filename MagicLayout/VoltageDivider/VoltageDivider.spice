@@ -1,0 +1,9 @@
+* SPICE3 file created from VoltageDivider.ext - technology: sky130A
+
+X0 a_n364_1130# a_n364_346# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=1.91
+X1 a_n246_1134# a_n134_348# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=1.91
+X2 a_n22_1130# V_Out Gnd sky130_fd_pr__res_xhigh_po_0p35 l=1.91
+X3 a_338_1138# a_338_354# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=1.91
+X4 a_n22_1130# a_n134_348# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=1.91
+X5 V_In V_Out Gnd sky130_fd_pr__res_xhigh_po_0p35 l=1.91
+X6 a_n246_1134# Gnd Gnd sky130_fd_pr__res_xhigh_po_0p35 l=1.91

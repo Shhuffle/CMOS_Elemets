@@ -1,0 +1,32 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
+
+Class XschemVoltageDivider.spice (0):  Merged 4 series devices.
+Class VoltageDivider.spice (1):  Merged 4 series devices.
+Subcircuit summary:
+Circuit 1: XschemVoltageDivider.spice      |Circuit 2: VoltageDivider.spice            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_0p35 (7->3)     |sky130_fd_pr__res_xhigh_po_0p35 (7->3)     
+Number of devices: 3                       |Number of devices: 3                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Resolving symmetries by net name.
+Netlists match with 2 symmetries with property errors.
+sky130_fd_pr__res_xhigh_po_0p35:R1 vs. sky130_fd_pr__res_xhigh_po_0p35:2:
+ L circuit1: 0.35   circuit2: 1.91   (delta=138%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po_0p35:R7 vs. sky130_fd_pr__res_xhigh_po_0p35:3:
+ L circuit1: 0.35   circuit2: 1.91   (delta=138%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po_0p35:R6 vs. sky130_fd_pr__res_xhigh_po_0p35:0:
+ L circuit1: 0.35   circuit2: 1.91   (delta=138%, cutoff=1%)
+Cells have no pins;  pin matching not needed.
+Device classes XschemVoltageDivider.spice and VoltageDivider.spice are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ XschemVoltageDivider.spice
