@@ -49,3 +49,9 @@ Layout Dimension
     We need capacitor of capacitance 2pf. Form earlier discussion about the capacitance of mimcap per um^2 we will need an cap of area 79.5 um^2 (8.91um * 8.91um)to get the
     required capacitance. 
 
+
+NOTE: In the schmatic netlist I have added an parasitic capacitor (between vout and gnd i.e parallel to the original capacitor used)with name matching with that of layout netlist. It will not affect our circuit and netlist order. It 
+is done purely to match device model and number during lvs testing. The parasitic capacitor is usually due to fringe capacitance or bottom plate Capacitance.
+
+Also output wave form is provided in the Schematic Folder.
+
