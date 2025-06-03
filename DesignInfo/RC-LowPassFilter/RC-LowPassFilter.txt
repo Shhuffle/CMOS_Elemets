@@ -1,0 +1,51 @@
+Schmatic 
+
+Vin -- R ----Vout 
+          '
+          '
+          Cap
+          '
+          '
+          Gnd
+
+
+As we know capacitor blocks any low frequency (ideally DC) passing through it. High frequency input signal is passed to gnd through capacitor.
+
+By Circuit Analysis 
+Vout = (Xc / Z ) * Vin
+where, Xc is the Capacitive Reactance 
+Xc = 1 / 2.pi.f.C , f = input signal frequency C = capacitance
+
+Z is the total impendance 
+Z = (R^2 + Xc^2)^(1/2) 
+
+Bandwidth of simple RC filter Circuit is given by the formula 
+Bd = 1/(2.pi.RC) , where wl = 0hz (DC)
+                 , wh is given by the bd formula 
+
+Circuit Parameter Calculation 
+To build a low pass filter whose bandwith is 0 - 10Mhz 
+R = Lets assume a resistance of 100kohm
+To get bd = 5Mhz we will need capacitance of (10000000 * 2 * pi * 100000)^(-1) , i.e 0.159pF 
+
+
+
+
+
+Layout capacitor
+In skywater sky130 PDK there are two available mimcap  layout option , cap2m and capm. I have used the capm which is over the M3.The top layer of this capacitor is 
+capm which is connected to metal4 through via3 and the bottom plate is metal3 which is connected to the metal1 through different via layers. Metal1 is grounded 
+to decrease the bottom plate parasitic capacitance. The dielectric inside the capacitor is capild.
+
+Capacitance 
+Form the SkyWater SKY130 PDK we get Information about capm, mim cap areacapacitance as 2fF/um^2 and 0.19fF/um^2 periphery capacitance which is low compared to areacapacitance
+capacitance. 
+
+Layout Dimension 
+1. Resistor 
+    Here sky130_fd_pr__res_high_po is used whose resistance is 2k per 5.73um^2. To get 100kohm resistance we will use 5 fingers each of length 3.5um. 
+
+2. capacitor
+    We need capacitor of capacitance 2pf. Form earlier discussion about the capacitance of mimcap per um^2 we will need an cap of area 79.5 um^2 (8.91um * 8.91um)to get the
+    required capacitance. 
+
