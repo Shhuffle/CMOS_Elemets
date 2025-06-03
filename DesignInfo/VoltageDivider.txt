@@ -33,10 +33,10 @@ From the https://skywater-pdk.readthedocs.io/en/main/rules/device-details.html#i
 
 The fixed-width resistors are modeled using the equation.
 
-I have used P- poly resistor of width 0.35um a separate implant is used to set the sheet resistance to 2000 ohm/sq.
-Note that the absoulte value of resistance is not important for the Voltage Divider ckt as long as the ratio is fixed for different temperature 
+I have used p poly resistor of width 0.35um.
+Note that the absoulte value of resistance is not important for the Voltage Divider ckt as long as the ratio of resistance is fixed for different temperature 
 and Voltage range
-In this layout I have used 5 squares poly of width 0.35um for each of the fingers which is 10kohm in theory. In total there are 7 fingers. The leftmost and 
+In this layout I have used 5 squares of p poly res which total length is 1.75um (sky130_fd_pr__res_high_po_0p35) for each of the fingers which is 2.519kohm. In total there are 7 fingers. The leftmost and 
 rightmost fingers are dummy resistor left floating.
 
 To make  match resistor pair as much as possible Common -Cenroid layout is used. 
@@ -59,6 +59,10 @@ In case more current is required we must increase the width.
 
 ALso licons are placed at the end of each resistors which is responsible for connected to metal layer. 
 polyresc is placed at the end of resistor of heigh 2.2um which is the minimum height for poly contact.
+
+NOTE: You will see different model name in the netlist of the xschem where I have manually changed the model name form sky130_fd_pr__res_high_po_0p35 to sky130_fd_pr__res_xhigh_po_0p35
+This was done to match the lvs. This will not affect connectivity setup in schmatic and layout.
+
 
 
 
