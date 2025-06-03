@@ -5,4 +5,4 @@ Schematic Contains the schematic of the design along with output wave form creat
 
 Elements Added Till Now
 1. Resistor
-2. RC low fass filter
+2. RC low pass filter
