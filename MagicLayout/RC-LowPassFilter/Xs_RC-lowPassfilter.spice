@@ -1,0 +1,14 @@
+** sch_path: /home/safal/projects/CMOS_Elemets/Schematic/RC-lowPassFilter/RC-LowPassFilter.sch
+**.subckt RC-LowPassFilter
+XR3 net1 net4 Gnd sky130_fd_pr__res_xhigh_po_0p35 L=3.62 mult=1 m=1
+XR4 net2 net3 Gnd sky130_fd_pr__res_xhigh_po_0p35 L=3.62 mult=1 m=1
+XC1 V_Out Gnd sky130_fd_pr__cap_mim_m3_1 W=8.91 L=8.91 MF=1 m=1
+XRDummy1 net5 net6 Gnd sky130_fd_pr__res_xhigh_po_0p35 L=3.62 mult=1 m=1
+XRDummy net7 net8 Gnd sky130_fd_pr__res_xhigh_po_0p35 L=3.62 mult=1 m=1
+XR5 net4 V_In Gnd sky130_fd_pr__res_xhigh_po_0p35 L=3.62 mult=1 m=1
+XR1 net3 net1 Gnd sky130_fd_pr__res_xhigh_po_0p35 L=3.62 mult=1 m=1
+XR2 V_Out net2 Gnd sky130_fd_pr__res_xhigh_po_0p35 L=3.62 mult=1 m=1
+C0 V_Out Gnd 4.10956f
+**.ends
+.GLOBAL Gnd
+.end

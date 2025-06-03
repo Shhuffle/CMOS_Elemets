@@ -1,11 +1,11 @@
 * SPICE3 file created from RC-LowPassFilter.ext - technology: sky130A
 
-X0 a_26977_13885# V_Out Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.62
-X1 a_26709_13885# a_26709_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.62
-X2 V_Out Gnd sky130_fd_pr__cap_mim_m3_1 l=8.91 w=8.91
-X3 a_26799_13884# a_26887_13320# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.62
-X4 a_27143_13885# a_27143_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.62
-X5 a_26799_13884# a_26709_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.62
-X6 V_In a_26629_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.62
-X7 a_26977_13885# a_26887_13320# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.62
+X0 a_26709_13885# a_26709_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.54
+X1 a_26977_13885# V_Out Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.54
+X2 a_27143_13885# a_27143_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.54
+X3 V_In a_26629_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.54
+X4 a_26799_13884# a_26709_13319# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.54
+X5 a_26799_13884# a_26887_13320# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.54
+X6 V_Out Gnd sky130_fd_pr__cap_mim_m3_1 l=8.91 w=8.91
+X7 a_26977_13885# a_26887_13320# Gnd sky130_fd_pr__res_xhigh_po_0p35 l=3.54
 C0 V_Out Gnd 4.10956f
