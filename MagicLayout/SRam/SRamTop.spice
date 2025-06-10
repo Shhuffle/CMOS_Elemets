@@ -1,0 +1,8 @@
+* SPICE3 file created from SRamTop.ext - technology: sky130A
+
+X0 inverter_1/inv_in inverter_0/a_916_238# inverter_1/VP inverter_1/VP sky130_fd_pr__pfet_01v8 ad=0.2976 pd=2.2 as=0.2976 ps=2.2 w=0.62 l=0.15
+X1 inverter_1/inv_in inverter_0/a_916_238# Gnd Gnd sky130_fd_pr__nfet_01v8 ad=0.2976 pd=2.2 as=0.2976 ps=2.2 w=0.62 l=0.15
+X2 inverter_0/inv_in inverter_1/a_916_238# inverter_1/VP inverter_1/VP sky130_fd_pr__pfet_01v8 ad=0.2976 pd=2.2 as=0.5952 ps=4.4 w=0.62 l=0.15
+X3 inverter_0/inv_in inverter_1/a_916_238# Gnd Gnd sky130_fd_pr__nfet_01v8 ad=0.4191 pd=3.64 as=0.5952 ps=4.4 w=0.62 l=0.15
+X4 inverter_0/inv_in WL BLC Gnd sky130_fd_pr__nfet_01v8 ad=0.1215 pd=1.44 as=0.1215 ps=1.44 w=0.45 l=0.15
+X5 inverter_1/inv_in WL BL Gnd sky130_fd_pr__nfet_01v8 ad=0.4191 pd=3.64 as=0.1215 ps=1.44 w=0.45 l=0.15

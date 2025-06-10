@@ -1,0 +1,128 @@
+magic
+tech sky130A
+timestamp 1749551550
+<< poly >>
+rect -240 -24 -225 -14
+rect -252 -31 -211 -24
+rect -252 -48 -241 -31
+rect -224 -48 -211 -31
+rect -252 -56 -211 -48
+rect 243 -51 258 -39
+rect 231 -58 272 -51
+rect 231 -75 242 -58
+rect 259 -75 272 -58
+rect 231 -83 272 -75
+<< polycont >>
+rect -241 -48 -224 -31
+rect 242 -75 259 -58
+<< locali >>
+rect -16 138 21 139
+rect -16 121 2 138
+rect 19 121 21 138
+rect -16 120 21 121
+rect -252 -31 -211 -24
+rect -252 -48 -241 -31
+rect -224 -48 -211 -31
+rect -252 -56 -211 -48
+rect -246 -59 -214 -56
+rect -246 -71 -239 -59
+rect -222 -71 -214 -59
+rect 231 -58 272 -51
+rect 231 -75 242 -58
+rect 259 -75 272 -58
+rect 231 -83 272 -75
+rect 237 -86 269 -83
+rect 237 -98 244 -86
+rect 261 -98 269 -86
+<< viali >>
+rect 2 121 19 138
+rect -239 -76 -222 -59
+rect 244 -103 261 -86
+<< metal1 >>
+rect -1 138 9 152
+rect -1 121 2 138
+rect -1 109 9 121
+rect -320 54 -194 81
+rect -320 21 -299 54
+rect 211 44 340 71
+rect -281 25 -243 30
+rect -281 -1 -275 25
+rect -249 -1 -243 25
+rect -281 -8 -243 -1
+rect -181 -3 -33 27
+rect 162 3 206 28
+rect 162 -23 171 3
+rect 197 -23 206 3
+rect 162 -28 206 -23
+rect 259 5 291 8
+rect 259 -21 263 5
+rect 289 -21 291 5
+rect 259 -25 291 -21
+rect 315 -25 340 44
+rect -252 -59 -210 -46
+rect -252 -76 -239 -59
+rect -222 -76 -210 -59
+rect -252 -80 -210 -76
+rect 231 -80 273 -73
+rect -252 -86 273 -80
+rect -252 -103 244 -86
+rect 261 -103 273 -86
+rect -252 -107 273 -103
+rect -252 -110 246 -107
+rect -252 -112 -210 -110
+<< via1 >>
+rect -122 110 -96 137
+rect -275 -1 -249 25
+rect 171 -23 197 3
+rect 263 -21 289 5
+<< metal2 >>
+rect -126 137 -91 142
+rect -126 110 -122 137
+rect -96 110 -91 137
+rect -126 106 -91 110
+rect -278 25 -246 28
+rect -278 -1 -275 25
+rect -249 -1 -246 25
+rect -278 -31 -246 -1
+rect -121 -3 -96 106
+rect 160 3 208 6
+rect -121 -4 -62 -3
+rect 160 -4 171 3
+rect -121 -23 171 -4
+rect 197 -23 208 3
+rect -121 -25 208 -23
+rect -121 -26 -62 -25
+rect 157 -31 208 -25
+rect 260 5 293 8
+rect 260 -21 263 5
+rect 289 -21 293 5
+rect -279 -135 -246 -31
+rect 260 -117 293 -21
+use inverter  inverter_0
+timestamp 1749551550
+transform 1 0 -336 0 1 7
+box 336 -7 549 248
+use inverter  inverter_1
+timestamp 1749551550
+transform 1 0 -540 0 1 6
+box 336 -7 549 248
+use NMOS  NMOS_0
+timestamp 1749538499
+transform 1 0 -230 0 1 -7
+box -105 -13 50 58
+use NMOS  NMOS_1
+timestamp 1749538499
+transform -1 0 248 0 -1 11
+box -105 -13 50 58
+<< labels >>
+rlabel metal1 18 -106 18 -106 1 WL
+port 1 n
+rlabel metal1 -311 76 -311 76 1 Gnd
+port 2 n
+rlabel metal2 -261 -133 -261 -133 1 BLC
+port 3 n
+rlabel metal2 276 -114 276 -114 1 BL
+port 4 n
+rlabel space -202 209 -202 209 1 Vdd
+port 5 n
+<< end >>
