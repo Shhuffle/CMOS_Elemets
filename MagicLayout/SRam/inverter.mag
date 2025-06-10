@@ -1,0 +1,119 @@
+magic
+tech sky130A
+timestamp 1748716227
+<< nwell >>
+rect 338 245 543 248
+rect 338 147 549 245
+rect 338 142 543 147
+<< nmos >>
+rect 468 30 483 92
+<< pmos >>
+rect 468 165 483 227
+<< ndiff >>
+rect 420 79 468 92
+rect 420 41 436 79
+rect 453 41 468 79
+rect 420 30 468 41
+rect 483 79 531 92
+rect 483 41 498 79
+rect 515 41 531 79
+rect 483 30 531 41
+<< pdiff >>
+rect 420 214 468 227
+rect 420 176 436 214
+rect 453 176 468 214
+rect 420 165 468 176
+rect 483 214 531 227
+rect 483 176 498 214
+rect 515 176 531 214
+rect 483 165 531 176
+<< ndiffc >>
+rect 436 41 453 79
+rect 498 41 515 79
+<< pdiffc >>
+rect 436 176 453 214
+rect 498 176 515 214
+<< psubdiff >>
+rect 372 79 420 92
+rect 372 41 389 79
+rect 406 41 420 79
+rect 372 30 420 41
+<< nsubdiff >>
+rect 372 215 420 227
+rect 372 177 386 215
+rect 403 177 420 215
+rect 372 165 420 177
+<< psubdiffcont >>
+rect 389 41 406 79
+<< nsubdiffcont >>
+rect 386 177 403 215
+<< poly >>
+rect 468 227 483 240
+rect 468 136 483 165
+rect 458 119 493 136
+rect 468 92 483 119
+rect 468 11 483 30
+<< locali >>
+rect 372 215 461 227
+rect 372 177 386 215
+rect 403 214 461 215
+rect 403 177 436 214
+rect 372 176 436 177
+rect 453 176 461 214
+rect 372 165 461 176
+rect 490 214 531 227
+rect 490 176 498 214
+rect 515 176 531 214
+rect 490 165 531 176
+rect 458 119 467 136
+rect 484 119 493 136
+rect 510 92 528 165
+rect 372 79 461 92
+rect 372 41 389 79
+rect 406 41 436 79
+rect 453 41 461 79
+rect 372 30 461 41
+rect 490 79 531 92
+rect 490 41 498 79
+rect 515 41 531 79
+rect 490 30 531 41
+rect 510 17 528 30
+rect 510 0 511 17
+<< viali >>
+rect 386 177 403 215
+rect 436 176 453 214
+rect 467 119 484 136
+rect 389 41 406 79
+rect 436 41 453 79
+rect 511 0 528 17
+<< metal1 >>
+rect 338 215 549 219
+rect 338 177 386 215
+rect 403 214 549 215
+rect 403 177 436 214
+rect 338 176 436 177
+rect 453 176 549 214
+rect 338 172 549 176
+rect 338 136 510 144
+rect 338 119 467 136
+rect 484 119 510 136
+rect 338 102 510 119
+rect 338 79 549 84
+rect 338 41 389 79
+rect 406 41 436 79
+rect 453 41 549 79
+rect 338 37 549 41
+rect 503 17 535 21
+rect 503 0 511 17
+rect 528 0 535 17
+rect 503 -7 535 0
+<< labels >>
+rlabel metal1 518 -7 518 -7 5 inv_out
+port 1 s
+rlabel metal1 338 60 338 60 7 VN
+port 2 w
+rlabel metal1 338 124 338 124 7 inv_in
+port 3 w
+rlabel metal1 338 194 338 194 7 VP
+port 4 w
+<< end >>
